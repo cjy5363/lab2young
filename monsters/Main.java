@@ -29,14 +29,6 @@ public class Main {
         ((Kraken)m5).setTentacleLength("short");
 
 
-        // calls each class's version
-        m1.specialPowers();
-        m2.specialPowers();
-        m3.specialPowers();
-        m4.specialPowers();
-        m5.specialPowers();
-
-
         // prints everything using getters
 
         System.out.println(m1.getName() + " | Power: " + m1.getSpecialPower() +
