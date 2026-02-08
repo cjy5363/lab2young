@@ -2,7 +2,6 @@ package monsters;
 
 public class Kraken extends Monster {
 
-    // Subclass-specific field
     private int tentacleLength;
 
     public Kraken(String name, SizeType size) {

@@ -2,10 +2,8 @@ package monsters;
 
 /**
  * Project: Lab 2 Monsters
- * File: Monster.java
- * Author: Your Name
- * Description: Abstract parent class representing all monsters.
  */
+
 public abstract class Monster {
 
     private String name;

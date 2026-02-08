@@ -2,7 +2,6 @@ package monsters;
 
 public class Cyclops extends Monster {
 
-    // Subclass-specific field
     private int eyePower;
 
     public Cyclops(String name, SizeType size) {

@@ -43,7 +43,7 @@ public class Main {
         monster4.setHornStrength(35);
         monster4.specialPowers();
 
-        // Monster 5: Kraken
+        //Monster 5: Kraken
         Kraken monster5 = new Kraken("Winngle", SizeType.SMALL);
         monster5.setHealth(90);
         monster5.setLevel(2);
@@ -51,7 +51,7 @@ public class Main {
         monster5.setTentacleLength(25);
         monster5.specialPowers();
 
-        // Print all monster info using getters
+        //Print all monster info using getters
 
         System.out.println("Name: " + monster1.getName());
         System.out.println("Size: " + monster1.getSizeType());

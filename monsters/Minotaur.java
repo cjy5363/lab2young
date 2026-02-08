@@ -2,7 +2,6 @@ package monsters;
 
 public class Minotaur extends Monster {
 
-    // Subclass-specific field
     private int hornStrength;
 
     public Minotaur(String name, SizeType size) {
