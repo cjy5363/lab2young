@@ -2,13 +2,23 @@ package monsters;
 
 public class Kraken extends Monster {
 
-    private String TentacleLength; // short, medium, long
+    // Subclass-specific field
+    private int tentacleLength;
 
-    public String getTentacleLength() { return TentacleLength; }
-    public void setTentacleLength(String TentacleLength) { this.TentacleLength = TentacleLength; }
+    public Kraken(String name, SizeType size) {
+        super(name, size);
+    }
+
+    public int getTentacleLength() {
+        return tentacleLength;
+    }
+
+    public void setTentacleLength(int tentacleLength) {
+        this.tentacleLength = tentacleLength;
+    }
 
     @Override
     public void specialPowers() {
-        System.out.println(getName());
+        System.out.println(getName() + " attacks with massive tentacles using " + getSpecialPower());
     }
 }

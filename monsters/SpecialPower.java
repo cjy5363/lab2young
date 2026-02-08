@@ -1,9 +1,9 @@
 package monsters;
 
 public enum SpecialPower {
-    LASER,
-    STRENGTH,
-    TELEPORT,
-    REGENERATION,
-    INVISIBILITY
+    FIRE,
+    ICE,
+    POISON,
+    LIGHTNING,
+    SHADOW
 }

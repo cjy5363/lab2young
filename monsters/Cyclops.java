@@ -2,13 +2,23 @@ package monsters;
 
 public class Cyclops extends Monster {
 
-    private String EyeballSize; // small, medium, large
+    // Subclass-specific field
+    private int eyePower;
 
-    public String getEyeballSize() { return EyeballSize; }
-    public void setEyeballSize(String EyeballSize) { this.EyeballSize = EyeballSize; }
+    public Cyclops(String name, SizeType size) {
+        super(name, size);
+    }
+
+    public int getEyePower() {
+        return eyePower;
+    }
+
+    public void setEyePower(int eyePower) {
+        this.eyePower = eyePower;
+    }
 
     @Override
     public void specialPowers() {
-        System.out.println(getName());
+        System.out.println(getName() + " fires a powerful beam from its single eye using " + getSpecialPower());
     }
 }
