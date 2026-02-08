@@ -2,10 +2,12 @@ package monsters;
 
 /**
  * Project: Lab 2 Monsters
- * File: Main.java
- * Author: Caiden Young
+ *  Course: IST 242
+ *  Author: Caiden Young
  * Description: 5 monsters all their characteristics.
- */
+ * Last Date Changed: Sunday Feb 9th, 2026
+ **/
+
 public class Main {
     public static void main(String[] args) {
 
